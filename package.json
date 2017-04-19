@@ -1,0 +1,9 @@
+{
+  "name": "my-project",
+  "scripts": {
+    "start": "micro index"
+  },
+  "dependencies": {
+    "micro": "latest"
+  }
+}
