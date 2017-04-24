@@ -2,11 +2,12 @@
   "name": "auth",
   "scripts": {
     "prestart": "babel src -d build",
-    "start": "node ./build/auth.js"
+    "start": "node ./build/index.js"
   },
   "dependencies": {
     "body-parser": "^1.17.1",
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "mongodb": "^2.2.26"
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",
